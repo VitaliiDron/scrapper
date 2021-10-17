@@ -1,0 +1,21 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "A scrapper for buying a book by genre",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm .\\index.ts\n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.4",
+    "inquirer": "^8.2.0",
+    "puppeteer": "^10.4.0",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "@types/inquirer": "^8.1.3"
+  }
+}
